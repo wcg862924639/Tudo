@@ -1,0 +1,107 @@
+body,ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-image: url(../images/bc.jpg); 
+}
+header{
+	height:50px;
+	background:#333;
+}
+section{
+	width: 60%;
+	margin:0 auto;
+}
+label{
+	float:left;
+	width:100px;
+	line-height:50px;
+	color:#ccc;
+	font-size:24px;
+	}
+header input{
+	float:right;
+	width:60%;
+	height:24px;
+	margin-top:12px;
+	border-radius:5px;
+}
+.todos{
+	position:relative;
+	color: red;
+}
+span{
+	position:absolute;
+	top:2px;
+	right:5px;
+	display:inline-block;
+	padding:0 5px;
+	height:20px;
+	border-radius:20px;
+	line-height:22px;
+	text-align:center;
+	color:#555;
+	font-size:14px;
+}
+
+li input{
+	position:absolute;
+	top:2px;
+	left:10px;
+	width:22px;
+	height:22px;
+}
+
+li p input{
+	top:3px;
+	left:40px;
+	width:70%;
+	height:20px;
+	line-height:14px;
+	font-size:14px;
+}
+li{
+	height:32px;
+	line-height:32px;
+	background: #678;
+	position:relative;
+	margin-bottom: 10px;
+	padding:0 45px;
+	border-radius:3px;
+	border-left: 5px solid #629A9C;
+}
+.wen-box1 li{
+	cursor:move;
+}
+.wen-box2 li{
+	border-left: 5px solid #999;
+	opacity: 0.5;
+}
+li a{
+	position:absolute;
+	top:2px;
+	right:4px;
+	display:inline-block;
+	width:14px;
+	height:12px;
+	border-radius:14px;
+	border:5px double #fff;
+	background:#CCC;
+	line-height:14px;
+	text-align:center;
+	color:#fff;
+	font-weight:bold;
+	font-size:14px;
+	cursor:pointer;
+}
+
+footer{
+	color:#666;
+	font-size:14px;
+	text-align:center;
+}
+footer a{
+	color:#666;
+	text-decoration:none;
+	color:blue;
+}
